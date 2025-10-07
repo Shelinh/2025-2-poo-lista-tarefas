@@ -4,12 +4,14 @@ public class Operacoes
         return 0;
     }
 
-    public Tarefa Buscar(int id) {
+    public Tarefa? Buscar(int id) {
         return null;
     }
-    public List<Tarefa> Listar() {
+    public List<Tarefa> GetListar()
+    {
         return Array.Empty<Tarefa>();
     }
+
     public void Alterar(Tarefa tarefa)
     {
 
